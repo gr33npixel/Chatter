@@ -1,0 +1,11 @@
+c:\users\gr33n\documents\visual studio 2013\Projects\chatter\chatter\bin\Debug\chatter.exe.config
+c:\users\gr33n\documents\visual studio 2013\Projects\chatter\chatter\bin\Debug\chatter.exe
+c:\users\gr33n\documents\visual studio 2013\Projects\chatter\chatter\bin\Debug\chatter.pdb
+c:\users\gr33n\documents\visual studio 2013\Projects\chatter\chatter\bin\Debug\chatter.xml
+c:\users\gr33n\documents\visual studio 2013\Projects\chatter\chatter\obj\Debug\chatter.Form1.resources
+c:\users\gr33n\documents\visual studio 2013\Projects\chatter\chatter\obj\Debug\chatter.Resources.resources
+c:\users\gr33n\documents\visual studio 2013\Projects\chatter\chatter\obj\Debug\chatter.vbproj.GenerateResource.Cache
+c:\users\gr33n\documents\visual studio 2013\Projects\chatter\chatter\obj\Debug\chatter.exe
+c:\users\gr33n\documents\visual studio 2013\Projects\chatter\chatter\obj\Debug\chatter.xml
+c:\users\gr33n\documents\visual studio 2013\Projects\chatter\chatter\obj\Debug\chatter.pdb
+c:\users\gr33n\documents\visual studio 2013\Projects\chatter\chatter\obj\Debug\chatter.Form2.resources
