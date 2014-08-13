@@ -22,9 +22,16 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.FormSkin1 = New chatter.FormSkin()
         Me.FlatTabControl1 = New chatter.FlatTabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.FlatGroupBox3 = New chatter.FlatGroupBox()
+        Me.FlatGroupBox4 = New chatter.FlatGroupBox()
+        Me.FlatLabel2 = New chatter.FlatLabel()
+        Me.FlatGroupBox2 = New chatter.FlatGroupBox()
+        Me.FlatGroupBox1 = New chatter.FlatGroupBox()
+        Me.FlatLabel1 = New chatter.FlatLabel()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
@@ -33,6 +40,9 @@ Partial Class Form2
         Me.FlatMax1 = New chatter.FlatMax()
         Me.FormSkin1.SuspendLayout()
         Me.FlatTabControl1.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
+        Me.FlatGroupBox4.SuspendLayout()
+        Me.FlatGroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'FormSkin1
@@ -80,12 +90,91 @@ Partial Class Form2
         'TabPage3
         '
         Me.TabPage3.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.TabPage3.Controls.Add(Me.FlatGroupBox3)
+        Me.TabPage3.Controls.Add(Me.FlatGroupBox4)
+        Me.TabPage3.Controls.Add(Me.FlatGroupBox2)
+        Me.TabPage3.Controls.Add(Me.FlatGroupBox1)
         Me.TabPage3.Location = New System.Drawing.Point(184, 4)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage3.Size = New System.Drawing.Size(525, 527)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Franklin"
+        '
+        'FlatGroupBox3
+        '
+        Me.FlatGroupBox3.BackColor = System.Drawing.Color.Transparent
+        Me.FlatGroupBox3.BaseColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        Me.FlatGroupBox3.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.FlatGroupBox3.Location = New System.Drawing.Point(252, 393)
+        Me.FlatGroupBox3.Name = "FlatGroupBox3"
+        Me.FlatGroupBox3.ShowText = False
+        Me.FlatGroupBox3.Size = New System.Drawing.Size(240, 102)
+        Me.FlatGroupBox3.TabIndex = 3
+        Me.FlatGroupBox3.Text = "FlatGroupBox3"
+        '
+        'FlatGroupBox4
+        '
+        Me.FlatGroupBox4.BackColor = System.Drawing.Color.Transparent
+        Me.FlatGroupBox4.BaseColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        Me.FlatGroupBox4.Controls.Add(Me.FlatLabel2)
+        Me.FlatGroupBox4.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.FlatGroupBox4.Location = New System.Drawing.Point(25, 241)
+        Me.FlatGroupBox4.Name = "FlatGroupBox4"
+        Me.FlatGroupBox4.ShowText = False
+        Me.FlatGroupBox4.Size = New System.Drawing.Size(240, 142)
+        Me.FlatGroupBox4.TabIndex = 2
+        Me.FlatGroupBox4.Text = "FlatGroupBox4"
+        '
+        'FlatLabel2
+        '
+        Me.FlatLabel2.AutoSize = True
+        Me.FlatLabel2.BackColor = System.Drawing.Color.Transparent
+        Me.FlatLabel2.Font = New System.Drawing.Font("Segoe UI", 8.0!)
+        Me.FlatLabel2.ForeColor = System.Drawing.Color.White
+        Me.FlatLabel2.Location = New System.Drawing.Point(30, 22)
+        Me.FlatLabel2.Name = "FlatLabel2"
+        Me.FlatLabel2.Size = New System.Drawing.Size(179, 91)
+        Me.FlatLabel2.TabIndex = 4
+        Me.FlatLabel2.Text = resources.GetString("FlatLabel2.Text")
+        '
+        'FlatGroupBox2
+        '
+        Me.FlatGroupBox2.BackColor = System.Drawing.Color.Transparent
+        Me.FlatGroupBox2.BaseColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        Me.FlatGroupBox2.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.FlatGroupBox2.Location = New System.Drawing.Point(252, 128)
+        Me.FlatGroupBox2.Name = "FlatGroupBox2"
+        Me.FlatGroupBox2.ShowText = False
+        Me.FlatGroupBox2.Size = New System.Drawing.Size(240, 102)
+        Me.FlatGroupBox2.TabIndex = 1
+        Me.FlatGroupBox2.Text = "FlatGroupBox2"
+        '
+        'FlatGroupBox1
+        '
+        Me.FlatGroupBox1.BackColor = System.Drawing.Color.Transparent
+        Me.FlatGroupBox1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        Me.FlatGroupBox1.Controls.Add(Me.FlatLabel1)
+        Me.FlatGroupBox1.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.FlatGroupBox1.Location = New System.Drawing.Point(25, 20)
+        Me.FlatGroupBox1.Name = "FlatGroupBox1"
+        Me.FlatGroupBox1.ShowText = False
+        Me.FlatGroupBox1.Size = New System.Drawing.Size(240, 102)
+        Me.FlatGroupBox1.TabIndex = 0
+        Me.FlatGroupBox1.Text = "FlatGroupBox1"
+        '
+        'FlatLabel1
+        '
+        Me.FlatLabel1.AutoSize = True
+        Me.FlatLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.FlatLabel1.Font = New System.Drawing.Font("Segoe UI", 8.0!)
+        Me.FlatLabel1.ForeColor = System.Drawing.Color.White
+        Me.FlatLabel1.Location = New System.Drawing.Point(21, 19)
+        Me.FlatLabel1.Name = "FlatLabel1"
+        Me.FlatLabel1.Size = New System.Drawing.Size(178, 65)
+        Me.FlatLabel1.TabIndex = 0
+        Me.FlatLabel1.Text = "Lorem ipsum dolor sit amet, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "consectetur adipiscing elit. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Suspendisse auctor p" & _
+    "lacerat" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " sem, id rhoncus ligula rutrum " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "eu. Vestibulum ante ipsum primis" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'TabPage2
         '
@@ -167,6 +256,11 @@ Partial Class Form2
         Me.TransparencyKey = System.Drawing.Color.Fuchsia
         Me.FormSkin1.ResumeLayout(False)
         Me.FlatTabControl1.ResumeLayout(False)
+        Me.TabPage3.ResumeLayout(False)
+        Me.FlatGroupBox4.ResumeLayout(False)
+        Me.FlatGroupBox4.PerformLayout()
+        Me.FlatGroupBox1.ResumeLayout(False)
+        Me.FlatGroupBox1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -179,4 +273,10 @@ Partial Class Form2
     Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
     Friend WithEvents TabPage4 As System.Windows.Forms.TabPage
     Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
+    Friend WithEvents FlatGroupBox3 As chatter.FlatGroupBox
+    Friend WithEvents FlatGroupBox4 As chatter.FlatGroupBox
+    Friend WithEvents FlatGroupBox2 As chatter.FlatGroupBox
+    Friend WithEvents FlatGroupBox1 As chatter.FlatGroupBox
+    Friend WithEvents FlatLabel2 As chatter.FlatLabel
+    Friend WithEvents FlatLabel1 As chatter.FlatLabel
 End Class
